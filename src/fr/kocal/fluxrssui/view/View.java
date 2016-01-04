@@ -3,11 +3,13 @@ package fr.kocal.fluxrssui.view;
 import fr.kocal.fluxrssui.Window;
 import fr.kocal.fluxrssui.controller.Controller;
 
+import javax.swing.*;
+
 /**
  * Created by Hugo Alliaume on 04/01/16.
  */
 
-public class View {
+public class View extends JPanel {
 
     /**
      * Controller lié à la View
@@ -23,7 +25,6 @@ public class View {
      * Initialise une View
      *
      * @param window Fenêtre principale
-     * @param title  Titre de la mini-fenêtre
      */
     public View(Window window) {
         this.setWindow(window);

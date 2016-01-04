@@ -18,6 +18,7 @@ public class Model {
      * @param controller Controller à lier
      */
     public void setController(Controller controller) {
+        System.out.println("Mode::setController() : " + controller);
         this.controller = controller;
     }
 

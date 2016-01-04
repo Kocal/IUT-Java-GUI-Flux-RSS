@@ -18,6 +18,11 @@ public class Controller {
      */
     private View view;
 
+    public Controller(Model model, View view) {
+        this.setModel(model);
+        this.setView(view);
+    }
+
     /**
      * Lie un Model au Controller
      *
@@ -45,7 +50,7 @@ public class Controller {
      * @param view View à lier
      */
     public void setView(View view) {
-        System.out.println("Controller::setView()");
+        System.out.println("Controller::setView() : " + view);
         this.view = view;
         this.view.setController(this);
     }
