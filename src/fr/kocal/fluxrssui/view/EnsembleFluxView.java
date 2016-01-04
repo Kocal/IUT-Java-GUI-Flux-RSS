@@ -12,7 +12,7 @@ public class EnsembleFluxView extends View {
     }
 
     @Override
-    public void makePanel() {
+    public void render() {
 
     }
 

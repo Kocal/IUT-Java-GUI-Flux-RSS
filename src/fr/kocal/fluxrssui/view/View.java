@@ -71,7 +71,7 @@ public class View extends JPanel {
     /**
      * Permet la création du panel de la view
      */
-    public void makePanel() {
+    public void render() {
         throw new UnsupportedOperationException("La méthode makePanel() doit être surchargée");
     }
 }
