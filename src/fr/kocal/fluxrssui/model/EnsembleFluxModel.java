@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Stocke des objets de type FluxRSS dans une ArrayList
  * Created by Hugo Alliaume on 04/01/16.
  */
-public class EnsembleFlux {
+public class EnsembleFluxModel extends Model {
 
     /**
      * Liste des flux RSS enregistrés
@@ -19,9 +19,10 @@ public class EnsembleFlux {
     private FluxRSS currentFlux;
 
     /**
-     * Création d'un objet EnsembleFlux
+     * Création d'un objet EnsembleFluxModel
      */
-    public EnsembleFlux() {
+    public EnsembleFluxModel() {
+        super();
         this.flux = new ArrayList<>();
     }
 
